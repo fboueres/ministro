@@ -1,4 +1,10 @@
 /**
+ * Bootstrap is being used as the main framework for stylling. 
+ * In the future, luckly, will be replaced by Tailwind.
+ */
+import * as bootstrap from 'bootstrap';
+
+/**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
@@ -30,3 +36,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
 //     enabledTransports: ['ws', 'wss'],
 // });
+
+/**
+ * jQuery is being used as the main framework for stylling. 
+ * In the future, luckly, will be replaced by Vue.
+ */
+import $ from 'jquery';
+window.$ = $;
